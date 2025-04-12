@@ -102,14 +102,14 @@ int main()
              }
                 cout<<"1-play with your friend"<<endl;
                   cout<<"2-play with computer"<<endl;
-                     cout<<"choose one of these options by entering its nubmer : ";
+                     cout<<"choose one of these options by entering its number : ";
                          while(!(cin>>option))
                             {
                                 //!illustrate the Error
                                     cout<<"ERROR .. please enter an accurate choice (1-2) : ";
-                                        //todo clear the previous value of the varibale (option)
+                                        //todo clear the previous value of the variable (option)
                                             cin.clear();
-                                                  //todo discadr the previour value fo the varibale (option)
+                                                  //todo discard the previous value fo the variable (option)
                                                         cin.ignore(123,'\n');
                             }
                      
@@ -262,7 +262,7 @@ void player_Move(char *space,Player ob)
         {
             //! illustrate the Error
             cout<<"ERROR .. Choose a place form (1-9) : ";
-            //todo clear the previous value of the variable (nubmer)
+            //todo clear the previous value of the variable (number)
             cin.clear();
             //todo discard the pervious value of the variable (number)
             cin.ignore(123,'\n');
@@ -276,12 +276,12 @@ void player_Move(char *space,Player ob)
                 else if (number <0 || number > 9)
                   {
                        cout<<"*please choose again*"<<endl;
-                        empty=1;//! ture
+                        empty=1;//! true
                   }
                  else
                   {
-                        cout<<"*this place has been chossen, please choose again*"<<endl;
-                        empty=1;//! ture
+                        cout<<"*this place has been choosen, please choose again*"<<endl;
+                        empty=1;//! true
                  }
         
        }while(empty);
@@ -302,7 +302,7 @@ void computer_Move(char *space, Player ob)
             }
             else
             {
-                empty=1;//! ture
+                empty=1;//! true
             }
    }while(empty);
 
