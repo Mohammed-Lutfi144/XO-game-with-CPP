@@ -36,7 +36,7 @@ class Player
             marker=check_XO(marker);
             while(marker == ob.marker)
             { 
-                cout<<"This marker has been chossen"<<endl;
+                cout<<"This marker has been choosen"<<endl;
                       cout<<"choose on of these markers to play (X-O) : ";
                            while(!(cin>>marker))
                           {
@@ -192,12 +192,12 @@ void play_With_friend()
                   }  
       }
       counter=1;
-         cout<<"if you would play again. please enter any charactar, if not enter \'E\' or \'e\' : ";
+         cout<<"if you would play again. please enter any character, if not enter \'E\' or \'e\' : ";
                 while(!(cin>>repeat))
                   {
                      //! illustrate the Error
-                          cout<<"ERROR .. if you would play again. please enter any charactar, if not enter \'E\' or \'e\' : ";
-                                //todo clear the previous value of the variable (nubmer)
+                          cout<<"ERROR .. if you would play again. please enter any character, if not enter \'E\' or \'e\' : ";
+                                //todo clear the previous value of the variable (number)
                                      cin.clear();
                                          //todo discard the pervious value of the variable (number)
                                               cin.ignore(123,'\n');
@@ -238,12 +238,12 @@ void play_With_Computer()
             break;
         }  
      }
-     cout<<"if you would play again. please enter any charactar, if not enter \'E\' or \'e\' : ";
+     cout<<"if you would play again. please enter any character, if not enter \'E\' or \'e\' : ";
      while(!(cin>>repeat))
         {
             //! illustrate the Error
-            cout<<"ERROR .. if you would play again. please enter any charactar, if not enter \'E\' or \'e\' : ";
-            //todo clear the previous value of the variable (nubmer)
+            cout<<"ERROR .. if you would play again. please enter any character, if not enter \'E\' or \'e\' : ";
+            //todo clear the previous value of the variable (number)
             cin.clear();
             //todo discard the pervious value of the variable (number)
             cin.ignore(123,'\n');
